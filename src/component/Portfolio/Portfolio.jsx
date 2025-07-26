@@ -15,11 +15,11 @@ const Portfolio = () => {
 
   const images = [
     "/src/assets/poert1.png",
-    "src/assets/port2.png",
-    "src/assets/port3.png",
+    "/src/assets/port2.png",
+    "/src/assets/port3.png",
     "/src/assets/poert1.png",
-    "src/assets/port2.png",
-    "src/assets/port3.png",
+    "/src/assets/port2.png",
+    "/src/assets/port3.png",
   ];
 
   return (

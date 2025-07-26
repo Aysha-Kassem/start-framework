@@ -3,10 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import Model from "./Model";
 import { Button } from "react-bootstrap";
-import port1 from './../../assets/poert1.png';
-import port2 from './../../assets/port2.png';
-import port3 from './../../assets/port3.png';
-
+import port1 from "./../../assets/poert1.png";
+import port2 from "./../../assets/port2.png";
+import port3 from "./../../assets/port3.png";
 
 const Portfolio = () => {
   const [modalShow, setModalShow] = useState(false);
@@ -17,14 +16,7 @@ const Portfolio = () => {
     setModalShow(true);
   };
 
-  const images = [
-    port1,
-    port2,
-    port3,
-    port1,
-    port2,
-    port3,
-  ];
+  const images = [port1, port2, port3, port1, port2, port3];
 
   return (
     <div className="p-5x text_secondary_color">
@@ -48,9 +40,7 @@ const Portfolio = () => {
                   className="overlay d-flex align-items-center justify-content-center"
                   onClick={() => handleOpenModal(img)}
                 >
-                  <Button variant="" size="lg">
-                    <FontAwesomeIcon icon={faPlus} size="7x" color="white" />
-                  </Button>
+                  <FontAwesomeIcon icon={faPlus} size="7x" color="white" />
                 </div>
               </div>
             </div>

@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import Model from "./Model";
 import { Button } from "react-bootstrap";
+import port1 from './../../assets/poert1.png';
+import port2 from './../../assets/port2.png';
+import port3 from './../../assets/port3.png';
+
 
 const Portfolio = () => {
   const [modalShow, setModalShow] = useState(false);
@@ -14,12 +18,12 @@ const Portfolio = () => {
   };
 
   const images = [
-    "/src/assets/poert1.png",
-    "/src/assets/port2.png",
-    "/src/assets/port3.png",
-    "/src/assets/poert1.png",
-    "/src/assets/port2.png",
-    "/src/assets/port3.png",
+    port1,
+    port2,
+    port3,
+    port1,
+    port2,
+    port3,
   ];
 
   return (

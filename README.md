@@ -32,6 +32,7 @@ A modern and responsive single-page application (SPA) built using **React**, **V
 ---
 
 ## 📂 Project Structure
+```bash
 start-framework/
 ├── src/
 │ ├── assets/
@@ -43,7 +44,7 @@ start-framework/
 ├── index.html
 ├── vite.config.js
 └── README.md
-
+```
 
 
 ---
@@ -67,6 +68,7 @@ npm install
 npm run dev
 ```
 
+---
 ### 🤖 React + Vite Boilerplate Info
 
 This template provides a minimal setup to get React working in Vite with Hot Module Replacement (HMR) and ESLint integration.
@@ -80,6 +82,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 Check out the official TypeScript React template to learn how to integrate TypeScript and typescript-eslint.
 
+---
 ### 🙋 Author
 Aysha Kassem
 GitHub: @Aysha-Kassem

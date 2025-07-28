@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="p-5 bg_main_color text_main_color">
       <div className=" d-flex flex-column align-items-center justify-content-center p-5 gap-3">
-        <h2 className="fw-bolder pt-md-5">ABOUT COMPONENT</h2>
+        <h2 className="fw-bolder pt-md-5 text-center">ABOUT COMPONENT</h2>
         <div className="position-relative star">
           <FontAwesomeIcon icon={faStar} />
         </div>

@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className="p-3 pb-5 text_secondary_color">
       <div className="d-flex flex-column align-items-center justify-content-center gap-3">
-        <h2 className="fw-bolder">CONTACT SECTION</h2>
+        <h2 className="fw-bolder text-center">CONTACT SECTION</h2>
         <div className="mx-2 position-relative star2">
           <FontAwesomeIcon icon={faStar} />
         </div>

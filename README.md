@@ -4,7 +4,7 @@ A modern and responsive single-page application (SPA) built using **React**, **V
 
 ## 🚀 Live Demo
 
-🌐 [View the live project](https://routeegy.github.io/startFramework/#/)
+🌐 [View the live project](https://vercel.com/aysha-kassems-projects/start-framework)
 
 ---
 
